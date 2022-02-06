@@ -1,0 +1,25 @@
+.GifContainer{
+    position: relative;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    text-decoration: none;
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+}
+.GifContainer h4{
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    z-index: 2;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px;
+    font-size: 0.5em;
+}
+.GifContainer img{
+    object-fit: fill;
+    width: 100%;
+}

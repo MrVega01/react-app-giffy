@@ -1,0 +1,37 @@
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100vw;
+    background: #fff;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+.logoImg{
+    cursor: pointer;
+    width: 5em;
+    padding: .5em;
+    object-fit: contain;
+}
+.textInput{
+    padding: 0.5em;
+    border: 2px solid #32afb4;
+    border-right: 0;
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+    outline: none;
+}
+.buttonSearch{
+    cursor: pointer;
+    border: 2px solid #32afb4;
+    border-top-right-radius: .5em;
+    border-bottom-right-radius: .5em;
+    background: #32afb4;
+    color: #fff;
+    padding: 0.5em;
+    transition: all .1s;
+}
+.buttonSearch:hover{
+    background: #146f72;
+    border-color: #146f72;
+}

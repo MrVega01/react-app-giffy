@@ -1,0 +1,24 @@
+:root{
+    --results-columns: 4;
+}
+.ListOfGifs{
+    margin-top: 1em;
+    margin-bottom: 0;
+    column-count: var(--results-columns);
+    column-gap: 0.5em;
+}
+@media (max-width: 768px){
+    :root{
+        --results-columns: 3;
+    }
+}
+@media (max-width: 576px){
+    :root{
+        --results-columns: 2;
+    }
+}
+@media (max-width: 326px){
+    :root{
+        --results-columns: 1;
+    }
+}
