@@ -1,9 +1,8 @@
-import {useContext} from 'react';
-import GifsContext from '../../context/GifsContext';
+import LoadContext from '../../hooks/LoadContext';
 
 export default function DetailGif({params}){
 
-    const {gifs} = useContext(GifsContext);
+    const gifs = LoadContext();
     const gif = gifs.find(single => single.id === params.id)
 
     return <div>
