@@ -1,4 +1,4 @@
-import LoadContext from '../../hooks/LoadContext';
+import LoadContext from 'hooks/LoadContext';
 
 export default function DetailGif({params}){
 

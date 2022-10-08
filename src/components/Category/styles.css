@@ -1,0 +1,17 @@
+.categoryContainer ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.categoryContainer li{
+    list-style: none;
+}
+.categoryContainer a{
+    text-decoration: none;
+    color: #32afb4;
+    transition: color 0.3s;
+}
+.categoryContainer a:hover{
+    color: #2d7e81;
+}

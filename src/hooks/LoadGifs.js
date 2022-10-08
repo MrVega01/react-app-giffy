@@ -1,7 +1,7 @@
 import {useEffect, useState, useContext} from 'react';
-import getGifs from '../services/getGifs';
-import getTheme from '../services/getTheme';
-import GifsContext from '../context/GifsContext';
+import getGifs from 'services/getGifs';
+import getTheme from 'services/getTheme';
+import GifsContext from 'context/GifsContext';
 
 export default function LoadGifs({keyword} = {keyword: ''}){
     const [loading, setLoading] = useState(false);

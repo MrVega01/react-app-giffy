@@ -1,3 +1,4 @@
-.listOfGifs{
+.showGifs{
+    min-height: 120vh;
     margin-top: 3.5em;
 }

@@ -5,7 +5,7 @@ import logo from './giffy.png';
 
 export default function Nav(){
   const [keyword, setKeyword] = useState('');
-  const [location, pushLocation] = useLocation();
+  const pushLocation = useLocation()[1];
 
   const handleSubmit = evt => {
     evt.preventDefault();
